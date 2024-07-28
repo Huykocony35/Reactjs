@@ -1,0 +1,29 @@
+.game-board {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+
+.snake {
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+}
+
+.food {
+  background-color: #f00;
+  width: 20px;
+  height: 20px;
+}
